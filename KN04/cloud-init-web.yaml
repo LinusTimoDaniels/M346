@@ -15,50 +15,25 @@ package_update: true # Paketaktualisierung durchführen
 # Pakete/Software aktualisieren
 # Apache Webserver installieren
 packages:
-  - curl
-  - wget
   - apache2
   - php
   - libapache2-mod-php
-  - adminer
-  - php-mysqli
-
-# Webserver neu starten
-# In das Home-Verzeichnis wechseln
-# Repository klonen
-# PHP-Dateien in das Verzeichnis des Webservers kopieren
-runcmd:
-  - sudo a2enconf adminer
-  - sudo systemctl restart apache2
 
 # Datei für PHP-Dateien erstellen
 write_files:
-  - path: /var/www/html/db.php
+  - path: /var/www/html/image.php
     content: |
-      <?php
-        $servername = "172.31.20.73";
-        $username = "admin";
-        $password = "password";
-        $dbname = "mysql";
-
-        // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        // Check connection
-        if ($conn->connect_error) {
-                die("Connection failed: " . $conn->connect_error);
-        }
-
-        $sql = "select Host, User from mysql.user;";
-        $result = $conn->query($sql);
-        while($row = $result->fetch_assoc()){
-                echo($row["Host"] . " / " . $row["User"] . "<br />");
-        }
-        //var_dump($result);
-      ?>
-  - path: /var/www/html/info.php
-    content: |
-      <?php
-
-      phpinfo();
-
-      ?>
+      <?php $ihrname = "Linus Daniels"; ?>
+        <html>
+          <head>
+          <title><?php echo($ihrname) ?></title>
+          </head>
+          <body>
+          Das ist eine Katze
+          <br />
+          <img src="https://kn04-bucket-linus-daniels.s3.amazonaws.com/eduardo-gorghetto-5auIBbcoRNw-unsplash.jpg" />
+          Platzieren Sie hier notwendige Quellenangaben, z.B. wenn der Inhalt von unsplash kommt.
+          Quellenangaben:
+          - unsplash.com
+          </body>
+        </html>
