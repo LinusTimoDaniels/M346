@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-12-18T09:44:33.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="XQM5BTba2oVTDkcR3qK2" version="22.1.11" type="device">
+  <diagram name="Seite-1" id="aEJ19te2x7iYsvV6E8Dq">
+    <mxGraphModel dx="1134" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UAh18_AO-rU5txfg4OIU-1" value="VPC:&lt;br&gt;172.31.0.0 / 16" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAh18_AO-rU5txfg4OIU-2" value="Subnetz 3:&lt;br&gt;172.31.0.0/20" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAh18_AO-rU5txfg4OIU-3" value="Subnetz 4:&lt;br&gt;172.31.80.0/20" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAh18_AO-rU5txfg4OIU-4" value="Subnetz 6:&lt;br&gt;172.31.64.0/20" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAh18_AO-rU5txfg4OIU-5" value="Subnetz 5:&lt;br&gt;172.31.48.0/20" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAh18_AO-rU5txfg4OIU-6" value="Subnetz 2;&lt;br&gt;172.31.32.0/20" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAh18_AO-rU5txfg4OIU-7" value="Subnetz 1:&lt;br&gt;172.31.16.0/20" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAh18_AO-rU5txfg4OIU-9" value="KN03-DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAh18_AO-rU5txfg4OIU-10" value="KN03-WEB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
