@@ -1,4 +1,4 @@
-#KN00
+#cloud-config
 users:
   - name: ubuntu
     groups: users, admin
