@@ -1,0 +1,15 @@
+#KN00
+users:
+  - name: ubuntu
+    groups: users, admin
+    home: /home/ubuntu
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ssh-rsa xxxaaabbbcccxxx aws-key
+  - name: tbz
+    inactive: true
+    groups: users
+    home: /home/tbz
+    shell: /bin/bash
+ssh_pwauth: false
+hostname: linus
